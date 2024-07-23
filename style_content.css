@@ -28,7 +28,6 @@ body::before {
     left: 0;
     width: 100%;
     height: 400px;
-    background-image: url(/img/mz_background.png);
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -690,14 +689,12 @@ footer {
 }
 
 .team-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 90px;
-    justify-items: center;
-    padding-top: 100px;
-    padding-bottom: 120px;
-    margin-top: 10px;
-    
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+    row-gap: 5%;
+    column-gap: 5%;
+    flex-wrap: wrap;
 }
 
 .team-member {
